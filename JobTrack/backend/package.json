@@ -1,0 +1,34 @@
+{
+  "name": "job-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend API for a professional job application tracker (Admin/HR + Student) built with Express, MongoDB, and JWT auth.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon src/server.js",
+    "start": "NODE_ENV=production node src/server.js"
+  },
+  "keywords": [
+    "job-tracker",
+    "express",
+    "mongodb",
+    "jwt",
+    "mern"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.9.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
